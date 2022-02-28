@@ -1,0 +1,85 @@
+/* колір основного тексту #212121 */
+/* другорядний колір тексту #757575 */
+/* колір Героя #FFFFFF */
+/* акцент #2196F3 */
+/* лого: одна част. акцент, інша #000000 */
+
+/* основний колір bg #E5E5E5 */
+/* другорядний колір фону #F5F4FA */
+/* колір Героя та Футеру #2F303A */
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+}
+body {
+  background-color: #e5e5e5;
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: #000000;
+}
+.logo-two {
+  color: var(--accent-color);
+}
+
+/* навігація сайту */
+.header-nav .link {
+  color: var(--primary-text-color);
+}
+.header-nav .link:hover,
+.header-nav .link:focus {
+  color: var(--accent-color);
+}
+.contacts .link {
+  color: var(--secondary-text-color);
+}
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+/* Герой */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: #ffffff;
+}
+.hero-btn {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+/* Преимущества + О нас + Коменда */
+
+/* Features */
+.feature-list-text {
+  color: var(--secondary-text-color);
+}
+
+/* Team */
+.team-list-text {
+  color: var(--secondary-text-color);
+}
+
+/* Footer */
+.footer {
+  background-color: #2f303a;
+}
+.footer-logo {
+  color: #ffffff;
+}
+.footer-logo-two {
+  color: var(--accent-color);
+}
+.footer-list-address {
+  color: #ffffff;
+}
+.footer-list-contacts {
+  color: rgba(255, 255, 255, 0, 6);
+}
