@@ -88,6 +88,11 @@ a {
   cursor: pointer;
 }
 
+.hero-btn:hover {
+  background-color: var(--accent-color);
+  color: var(--primary-bg-color);
+}
+
 /* -------------------Features--------------- */
 .visually-hidden {
   position: absolute;
@@ -118,7 +123,8 @@ a {
 }
 
 /* --------------------About------------------ */
-.about-title {
+.about-title, 
+.team-title {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -130,12 +136,6 @@ a {
   background-color: var(--secondary-bg-color);
 }
 
-.team-title {
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
 .team-list-title {
   font-weight: 500;
   font-size: 16px;
